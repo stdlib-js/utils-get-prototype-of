@@ -41,7 +41,7 @@ tape( 'main export is a function', function test( t ) {
 
 tape( 'if an environment supports `Object.getPrototypeOf`, the exported value is the built-in value', function test( t ) {
 	var getProto = proxyquire( './../lib/detect.js', {
-		'@stdlib/assert/is-function': isFunction
+		'@stdlib/assert-is-function': isFunction
 	});
 
 	t.equal( getProto, builtin, 'exports built-in' );
@@ -54,7 +54,7 @@ tape( 'if an environment supports `Object.getPrototypeOf`, the exported value is
 
 tape( 'if an environment does not support `Object.getPrototypeOf`, the exported value is a polyfill', function test( t ) {
 	var getProto = proxyquire( './../lib/detect.js', {
-		'@stdlib/assert/is-function': isFunction
+		'@stdlib/assert-is-function': isFunction
 	});
 
 	t.equal( getProto, polyfill, 'exports polyfill' );
