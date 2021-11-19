@@ -20,7 +20,7 @@ limitations under the License.
 
 # getPrototypeOf
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Return the prototype of a provided object.
 
@@ -136,7 +136,7 @@ proto = getPrototypeOf( function foo() {} );
 
 ## See Also
 
--   [`@stdlib/assert/is-prototype-of`][@stdlib/assert/is-prototype-of]: test if an object's prototype chain contains a provided prototype.
+-   <span class="package-name">[`@stdlib/assert/is-prototype-of`][@stdlib/assert/is-prototype-of]</span><span class="delimiter">: </span><span class="description">test if an object's prototype chain contains a provided prototype.</span>
 
 </section>
 
@@ -187,8 +187,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-get-prototype-of/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-get-prototype-of?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-get-prototype-of.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-get-prototype-of/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
