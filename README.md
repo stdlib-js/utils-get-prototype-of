@@ -144,7 +144,7 @@ proto = getPrototypeOf( function foo() {} );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-prototype-of`][@stdlib/assert/is-prototype-of]</span><span class="delimiter">: </span><span class="description">test if an object's prototype chain contains a provided prototype.</span>
+-   <span class="package-name">[`@stdlib/assert-is-prototype-of`][@stdlib/assert/is-prototype-of]</span><span class="delimiter">: </span><span class="description">test if an object's prototype chain contains a provided prototype.</span>
 
 </section>
 
