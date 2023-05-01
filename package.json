@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/assert-is-function": "^0.0.8",
     "@stdlib/object-ctor": "^0.0.1",
-    "@stdlib/utils-native-class": "^0.0.8"
+    "@stdlib/utils-native-class": "^0.0.8",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/bench": "^0.0.12",
