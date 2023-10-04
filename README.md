@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@deno/mod.js';
+import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@v0.1.1-deno/mod.js';
 ```
 
 #### getPrototypeOf( value )
@@ -100,7 +100,7 @@ var proto = getPrototypeOf( {} );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@deno/mod.js';
+import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@v0.1.1-deno/mod.js';
 
 var proto = getPrototypeOf( 'beep' );
 // returns String.prototype
