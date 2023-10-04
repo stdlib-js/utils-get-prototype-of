@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@esm/index.mjs';
+import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@v0.1.1-esm/index.mjs';
 ```
 
 #### getPrototypeOf( value )
@@ -105,7 +105,7 @@ var proto = getPrototypeOf( {} );
 <body>
 <script type="module">
 
-import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@esm/index.mjs';
+import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@v0.1.1-esm/index.mjs';
 
 var proto = getPrototypeOf( 'beep' );
 // returns String.prototype
