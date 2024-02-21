@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-get-prototype-of/tags). For example,
+
+```javascript
 import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@v0.2.1-esm/index.mjs';
 ```
 
@@ -105,7 +110,7 @@ var proto = getPrototypeOf( {} );
 <body>
 <script type="module">
 
-import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@v0.2.1-esm/index.mjs';
+import getPrototypeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-get-prototype-of@esm/index.mjs';
 
 var proto = getPrototypeOf( 'beep' );
 // returns String.prototype
