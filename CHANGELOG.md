@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
+## Unreleased (2025-03-31)
 
 <section class="issues">
 
@@ -24,7 +24,7 @@ This release closes the following issue:
 
 <details>
 
--   [`09d4050`](https://github.com/stdlib-js/stdlib/commit/09d405085b87aaab8081380f12abd727bd20e310) - **chore:** fix JavaScript lint errors [(#6029)](https://github.com/stdlib-js/stdlib/pull/6029) _(by JaySoni1, Athan Reines)_
+-   [`09d4050`](https://github.com/stdlib-js/stdlib/commit/09d405085b87aaab8081380f12abd727bd20e310) - **chore:** fix JavaScript lint errors [(#6029)](https://github.com/stdlib-js/stdlib/pull/6029) _(by Jay Soni, Athan Reines)_
 -   [`ff9fa81`](https://github.com/stdlib-js/stdlib/commit/ff9fa81f917d539f1a11fba5580e1744991a8a11) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
 
 </details>
@@ -40,7 +40,7 @@ This release closes the following issue:
 A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   JaySoni1
+-   Jay Soni
 -   Philipp Burckhardt
 
 </section>
