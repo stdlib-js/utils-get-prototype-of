@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-31)
+## Unreleased (2025-09-01)
 
 <section class="issues">
 
@@ -24,6 +24,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`a147b7d`](https://github.com/stdlib-js/stdlib/commit/a147b7d6ef754925120fcc7bdec2b40842a3615a) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`09d4050`](https://github.com/stdlib-js/stdlib/commit/09d405085b87aaab8081380f12abd727bd20e310) - **chore:** fix JavaScript lint errors [(#6029)](https://github.com/stdlib-js/stdlib/pull/6029) _(by Jay Soni, Athan Reines)_
 -   [`ff9fa81`](https://github.com/stdlib-js/stdlib/commit/ff9fa81f917d539f1a11fba5580e1744991a8a11) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
 
